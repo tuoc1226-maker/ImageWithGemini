@@ -87,7 +87,7 @@ func generateMultimodalContent(w io.Writer, prompt, image, projectID, location, 
 
 ## 2. We store the PROJECT_ID in an environmental variable
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/420e518e-4019-4e9e-8d13-10322aedef2e)
+
 
 ## 3. Create the "go.mod" file
 
@@ -164,7 +164,6 @@ We execute the application with the command
 go run multimodal.go
 ```
 
-![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/71d3528a-7e78-475d-a254-74772388f4f6)
 
 ## 6. Verify the image content
 
@@ -176,15 +175,9 @@ gsutil cp gs://generativeai-downloads/images/scones.jpg ./scones.jpg
 
 We see the image 
 
-![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/e8848059-b7b1-46f7-a594-7a4312fd9aaa)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/sample.png)
 
-![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/8b2d03f4-7aa0-49e0-bb24-d60419ffbf39)
-
-This is the description we got from Gemini:
-
-**There are six blueberry scones on a white napkin with blueberries scattered around. There is a silver spoon on one scone that says Let's Jam. There are also three pink peonies and two cups of coffee.**
-
-![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/a18fa656-14c1-445f-a734-e8e85d324e5d)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/sample.png)
 
 
 
