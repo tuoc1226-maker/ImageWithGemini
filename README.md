@@ -1,14 +1,11 @@
 # Golang: Google Cloud Gemini Vertex AI API call to describe an image
 
-This sample source code: https://github.com/luiscoco/Golang-sample18-Google-Gemini/
-
 This is the official Google sample web page: 
 
 https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal
 
 ## 1. Run VSCode and copy this code
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/970a0021-1704-4379-b786-dfe736bb2d80)
 
 ```go
 // Copyright 2023 Google LLC
@@ -167,7 +164,7 @@ We execute the application with the command
 go run multimodal.go
 ```
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/71d3528a-7e78-475d-a254-74772388f4f6)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/71d3528a-7e78-475d-a254-74772388f4f6)
 
 ## 6. Verify the image content
 
@@ -177,19 +174,17 @@ We open the Donwload folder and we download the image with this command
 gsutil cp gs://generativeai-downloads/images/scones.jpg ./scones.jpg
 ```
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/256876ad-f92f-4ead-afd8-052e3f6465f6)
-
 We see the image 
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/e8848059-b7b1-46f7-a594-7a4312fd9aaa)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/e8848059-b7b1-46f7-a594-7a4312fd9aaa)
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/8b2d03f4-7aa0-49e0-bb24-d60419ffbf39)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/8b2d03f4-7aa0-49e0-bb24-d60419ffbf39)
 
 This is the description we got from Gemini:
 
 **There are six blueberry scones on a white napkin with blueberries scattered around. There is a silver spoon on one scone that says Let's Jam. There are also three pink peonies and two cups of coffee.**
 
-![image](https://github.com/luiscoco/Golang-sample18-Google-Gemini/assets/32194879/a18fa656-14c1-445f-a734-e8e85d324e5d)
+![image](https://github.com/tuoc1226-maker/ImageWithGemini/assets/32194879/a18fa656-14c1-445f-a734-e8e85d324e5d)
 
 
 
