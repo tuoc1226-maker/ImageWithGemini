@@ -174,7 +174,7 @@ gsutil cp gs://generativeai-downloads/images/scones.jpg ./scones.jpg
 ```
 
 We see the image 
-<a href="https://github.com/tuoc1226-maker/ImageWithGemini/">
- <img src="https://github.com/tuoc1226-maker/ImageWithGemini/sample.png" width="100%" style="box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%) !important"/>
-</a>
+<img src="sample.png" widh="100%" />
+
+
 
