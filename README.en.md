@@ -4,43 +4,43 @@
 
 ## 1. Business Logic Flow
 
-User
- │
- │ 1. Ask a question
- │
- ▼
-Application
- │
- │ 2. Receive prompt
- │
- │ 3. Receive image
- │
- ▼
-Prepare AI Request
- │
- │ Build request:
- │   - Prompt
- │   - Image
- │   - Model
- │
- ▼
-Vertex AI
- │
- │ Analyze image
- │
- │ Understand prompt
- │
- │ Generate answer
- │
- ▼
-Application
- │
- │ Receive response
- │
- │ Extract text
- │
- ▼
-User
+		User
+		 │
+		 │ 1. Ask a question
+		 │
+		 ▼
+		Application
+		 │
+		 │ 2. Receive prompt
+		 │
+		 │ 3. Receive image
+		 │
+		 ▼
+	Prepare AI Request
+		 │
+		 │ Build request:
+		 │   - Prompt
+		 │   - Image
+		 │   - Model
+		 │
+		 ▼
+	Vertex AI
+		 │
+		 │ Analyze image
+		 │
+		 │ Understand prompt
+		 │
+		 │ Generate answer
+		 │
+		 ▼
+	Application
+		 │
+		 │ Receive response
+		 │
+		 │ Extract text
+		 │
+		 ▼
+		User
 
 
 ## 2. Create the Client
