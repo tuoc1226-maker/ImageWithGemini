@@ -38,7 +38,9 @@
 
 ## 2. クライアントを作成する
 
-```client, err := genai.NewClient(ctx, projectID, location)
+```
+client, err := genai.NewClient(ctx, projectID, location)
+
 ```
 
 これは Gemini を呼び出しません。代わりに、クライアントオブジェクトを作成します。
@@ -63,13 +65,12 @@
 
 ## 3. モデルの取得
 
-**go.mod**を作成します。
+```
+model := client.GenerativeModel(modelName)
 
-```model := client.GenerativeModel(modelName)
 ```
 
 ## 4. 画像の準備
-
 ```
 img := genai.FileData{
 

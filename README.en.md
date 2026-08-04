@@ -45,11 +45,11 @@
 
 ## 2. Create the Client
 
-```client, err := genai.NewClient(ctx, projectID, location)
 ```
+client, err := genai.NewClient(ctx, projectID, location)
 
+```
 This does not call Gemini. Instead, it creates a client object.
-
 Internally, it roughly does this:
 
 Application
@@ -71,9 +71,9 @@ Return Client
 
 ## 3. Get the Model
 
-We create the **go.mod**
+```
+model := client.GenerativeModel(modelName)
 
-```model := client.GenerativeModel(modelName)
 ```
 
 ## 4. Prepare the Image
