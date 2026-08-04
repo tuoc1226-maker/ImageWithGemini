@@ -1,0 +1,194 @@
+
+What is Vertex AI?
+
+Google Cloud Vertex AI is a managed machine learning and generative AI platform. It provides everything needed to build, deploy, monitor, and scale AI applications without managing the underlying infrastructure.
+
+
+
+                    Google Cloud
+
+          ┌─────────────────────────────┐
+          │          Vertex AI          │
+          │                             │
+          │  Gemini Models              │
+          │  Model Garden               │
+          │  Prompt Management          │
+          │  Embeddings                 │
+          │  RAG                        │
+          │  Vector Search              │
+          │  Fine-tuning                │
+          │  Training Pipelines         │
+          │  Deployment                 │
+          │  Monitoring                 │
+          └─────────────────────────────┘
+
+1. Gemini Models
+
+These generate or understand content.
+
+Examples:
+
+Text generation
+Image understanding
+Code generation
+Document Q&A
+Chatbots
+
+Example:
+
+model := client.GenerativeModel("gemini-2.5-flash")
+
+Business purpose:
+
+"I need an AI to answer questions."
+
+
+2. Embedding Models
+
+Instead of generating text, they convert text into vectors.
+
+"I love AI"
+
+↓
+
+[0.25, -0.81, 0.74, ...]
+
+Business uses:
+
+Semantic search
+Recommendation systems
+RAG
+Similarity search
+Document retrieval
+
+3. Vector Search
+
+Imagine one million documents.
+
+User Question
+
+↓
+
+Embedding
+
+↓
+
+Vector Search
+
+↓
+
+Top 5 Relevant Documents
+
+↓
+
+Gemini
+
+This is how many enterprise chatbots find relevant information before generating an answer.
+
+
+4. RAG (Retrieval-Augmented Generation)
+
+This is one of the most common enterprise AI architectures.
+
+User
+
+↓
+
+Question
+
+↓
+
+Embedding
+
+↓
+
+Vector Database
+
+↓
+
+Relevant Documents
+
+↓
+
+Gemini
+
+↓
+
+Final Answer
+
+Instead of relying only on the model's training data, it uses your company's documents as context.
+
+
+5. Prompt Management
+
+Instead of hardcoding prompts:
+
+prompt := "Summarize this document."
+
+You can manage prompts centrally, version them, and reuse them across applications.
+
+6. Model Garden
+
+Vertex AI includes access to many models besides Gemini.
+
+Examples include:
+
+Google Gemini
+Open models
+Vision models
+Speech models
+
+This lets you choose the model that best fits your task.
+
+7. Training
+
+If the built-in models don't meet your needs, Vertex AI supports training custom models using your own datasets.
+
+Typical workflow:
+
+Dataset
+
+↓
+
+Training Job
+
+↓
+
+New Model
+
+↓
+
+Deploy
+8. Deployment
+
+Once a model is ready:
+
+Model
+
+↓
+
+Endpoint
+
+↓
+
+REST API
+
+↓
+
+Application
+
+Your applications can call the deployed endpoint just like any other web service.
+
+9. Monitoring
+
+Vertex AI also helps monitor production systems.
+
+Examples:
+
+Latency
+Errors
+Costs
+Usage
+Model quality
+
+This is important for operating AI systems reliably over time.
