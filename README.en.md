@@ -1,6 +1,6 @@
 # Gemini Vertex describes an image
 
-
+[🇯🇵 日本語](README.md) | [🇺🇸 English](README.en.md)
 
 ## 1. Business Logic Flow
 

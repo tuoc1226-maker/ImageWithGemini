@@ -1,5 +1,6 @@
 # Gemini Vertex は画像を記述します
 
+[🇯🇵 日本語](README.md) | [🇺🇸 English](README.en.md)
 ## 1. ビジネスロジックフロー
 
 ユーザー
